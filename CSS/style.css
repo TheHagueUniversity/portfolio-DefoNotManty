@@ -90,7 +90,7 @@ header a:hover{
 ------------------------------------*/
 #showcase{
   min-height:500px;
-  background:url('../img/PinkStars.jpg') no-repeat 0 -400px;
+  background:url('../images/PinkStars.jpg') no-repeat 0 -400px;
   text-align:center;
   color:#ffffff;
 }
@@ -129,22 +129,39 @@ header a:hover{
 .about a {
   color:#ffffff;
 }
-.about .btn {
-  color: #ffffff;
-  background: #2F3061;
-  text-decoration: none;
-  padding: 8px;
-  border-radius: 4px;
-  display: inline-block;
-}
-.about .btn:hover {
-  background: rgba(47, 48, 97, 80%);
-}
+
 .about-item {
   overflow: hidden;
 }
 .about-item h3 {
   margin-top: 0;
+}
+
+/* Education
+------------------------------------*/
+.education {
+  background-image: url('../images/Education.jpg');
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
+
+}
+
+.education p {
+  width: 60%;
+}
+
+/* Work Experience
+------------------------------------*/
+.workexp {
+  background-image: url('../images/WorkExp.jpg');
+  background-size: cover;
+  background-position: top right;
+  color:#ffffff;
+}
+
+.workexp p {
+  width: 60%;
 }
 
 /* Boxes
@@ -169,7 +186,6 @@ header a:hover{
 
 footer{
   padding:20px;
-  margin-top:20px;
   color:#ffffff;
   background-color:#35424a;
   text-align: center;
