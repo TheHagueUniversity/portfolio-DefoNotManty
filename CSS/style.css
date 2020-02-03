@@ -90,7 +90,7 @@ header a:hover{
 ------------------------------------*/
 #showcase{
   min-height:500px;
-  background:url('../images/PinkStars.jpg') no-repeat 0 -400px;
+  background:url('../images/Grid.jpg') no-repeat 0 -400px;
   text-align:center;
   color:#ffffff;
 }
@@ -130,12 +130,6 @@ header a:hover{
   color:#ffffff;
 }
 
-.about-item {
-  overflow: hidden;
-}
-.about-item h3 {
-  margin-top: 0;
-}
 
 /* Education
 ------------------------------------*/
